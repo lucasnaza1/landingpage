@@ -9,3 +9,13 @@
 body {
   background-color: #b8f5ce;
 }
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #63856f;
+  color: #b8f5ce;
+  border-radius: 12px;
+}
