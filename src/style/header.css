@@ -14,7 +14,7 @@ header {
   font-size: 24px;
   color: #63856f;
 }
-#nav_list {
+#nav-list {
   display: flex;
   list-style: none;
   gap: 48px;
@@ -35,12 +35,13 @@ header {
   display: none;
 }
 
-#mobile_menu {
+#mobile-menu {
   display: none;
 }
 
 @media screend and (max-width: 1170px) {
-  #nav_list {
+  #nav-list,
+  #navbar .btn-default {
     display: none;
   }
   #mobile-btn {
