@@ -30,3 +30,20 @@ header {
   color: #1d1d1dad;
   border-bottom: 3px solid #63856f;
 }
+
+#mobile-btn {
+  display: none;
+}
+
+#mobile_menu {
+  display: none;
+}
+
+@media screend and (max-width: 1170px) {
+  #nav_list {
+    display: none;
+  }
+  #mobile-btn {
+    display: block;
+  }
+}
